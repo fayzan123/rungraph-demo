@@ -14,7 +14,8 @@ npm run watch   # keep the generated store in sync while developing
 ```
 
 One test fails: `refreshes the access token once under concurrent calls`.
-The fix the recorded agent landed was never pushed (you'll see why in the
-run), so `main` still fails — that's the point.
+The fix the recorded agent landed isn't on `main` — the run shows exactly how
+far it got — so the failing test is still here for you to reproduce. That's
+the point.
 
 MIT.
