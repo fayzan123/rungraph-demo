@@ -1,0 +1,12 @@
+{
+  "name": "rungraph-demo",
+  "version": "0.1.0",
+  "description": "Tiny token service — the staged demo repo behind the rungraph landing page",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "pretest": "node scripts/sync-tokens.mjs",
+    "test": "node --test",
+    "watch": "node scripts/sync-tokens.mjs --watch"
+  }
+}
